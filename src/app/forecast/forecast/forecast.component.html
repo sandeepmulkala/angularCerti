@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <fieldset>
+    <legend>Sacramento ({{ zipCode }})</legend>
+    <div class="panel panel-default">
+      <ul class="list-group">
+        <li *ngFor="let forecast of forecastData" class="list-group-item">
+          {{ forecast.temperatureDate | date: "fullDate" }}
+          {{ forecast.main }} - High:
+          {{ forecast.temp_max | number: "1.0-0" }} - Low: {{ forecast.temp_min | number: "1.0-0" }}
+          <img class="icon" src="{{ forecast.imageName }}" />
+        </li>
+      </ul>
+    </div>
+  </fieldset>
+  <button
+    class="btn btn-success"
+    tabindex="0"
+    id="mainPageBtn"
+    (click)="navigateToMainPage()"
+  >
+    &lt; Back to main page
+  </button>
+</div>

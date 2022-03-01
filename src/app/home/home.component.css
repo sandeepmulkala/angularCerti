@@ -1,0 +1,11 @@
+
+
+.container-fluid fieldset{
+    border: 1px black solid;
+}
+
+.container-fluid fieldset legend {
+    margin-left : 1em; 
+    padding : 0.2em 0.8em;
+    width: auto;
+}

@@ -1,0 +1,9 @@
+div fieldset {
+    border: 1px black solid;
+}
+
+legend {
+    margin-left : 1em; 
+    padding : 0.2em 0.8em;
+    width: auto;
+}

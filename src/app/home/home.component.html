@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <fieldset>
+      <legend>Add a location</legend>
+      <ngc-search (newZipAdded)="getWeatherForZipCode($event)"></ngc-search>
+      <div>
+      </div>
+  </fieldset>
+  
+  <ngc-weather-list  *ngIf="zipCodes && zipCodes.length > 0" [zipCodes]="zipCodes"></ngc-weather-list>
+</div>

@@ -1,0 +1,21 @@
+.container-fluid fieldset{
+    border: 1px black solid;
+}
+
+.container-fluid fieldset legend {
+    margin-left : 1em; 
+    padding : 0.2em 0.8em;
+    width: auto;
+}
+
+.panel-default {
+    margin: 0 42px 0 39px;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+button {
+    margin: 7px 3px 4px 1px;
+}

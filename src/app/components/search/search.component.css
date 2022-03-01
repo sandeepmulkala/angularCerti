@@ -1,0 +1,14 @@
+.well {
+    margin: 0 65px 0 65px;
+}
+
+.well input {
+    width: auto;
+    display: inline-block;
+    margin: 0 0 0 76px;
+
+}
+
+.well button {
+    margin: 5px 7px 10px 8px;
+}

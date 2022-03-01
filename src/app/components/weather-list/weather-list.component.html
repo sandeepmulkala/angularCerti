@@ -1,0 +1,6 @@
+<div *ngFor="let zipCode of zipCodes">
+  <fieldset>
+  <legend>Sacramento</legend>
+  <ngc-weather [zipCode]='zipCode' (zipDeleted)='deleteZip($event)'></ngc-weather>
+  </fieldset>
+</div>
